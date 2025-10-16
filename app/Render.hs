@@ -58,7 +58,7 @@ darkBlueT :: SP.Color
 darkBlueT = V4 0 0 100 20
 
 green :: SP.Color
-green = V4 9 50 9 255
+green = V4 9 70 9 255
 
 cyan :: SP.Color
 cyan = V4 0 255 255 255
