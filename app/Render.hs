@@ -159,7 +159,7 @@ instance Render PlayerState where
             TeamId2 -> blue 
 
     renderIntention r scaled' (playerStateIntention p)
-    SP.fillCircle r scaled' 10 colour
+    SP.fillCircle r scaled' 15 colour
 
     surf <- SDLFont.solid font white (T.pack (show $ playerNumber $ playerStatePlayer p))
     shirtNumberTexture <- SVR.createTextureFromSurface r surf
