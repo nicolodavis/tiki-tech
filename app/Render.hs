@@ -177,7 +177,7 @@ instance Render Ball where
   render r _ b = do
     let bpv = ballPositionVector b
         scaled' = coordinateTransV bpv
-    SP.fillCircle r scaled' 4 grey
+    SP.fillCircle r scaled' 6 cyan
 
 instance Render SpacePoly where
   render :: S.Renderer-> SDLFont.Font -> SpacePoly -> IO ()
