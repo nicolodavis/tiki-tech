@@ -70,6 +70,10 @@ purple = V4 255 0 255 255
 grey :: SP.Color
 grey = V4 155 155 155 255
 
+-- Export the main function as hs_start in the Wasm module.
+foreign export javascript "hs_start"
+  main :: IO ()
+
 processFps :: Int
 processFps = 30
 
